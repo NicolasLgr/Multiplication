@@ -1,0 +1,60 @@
+*{
+    background-color: rgb(28, 102, 102);
+}
+
+p{
+    color: aliceblue;
+    font-size: 5em;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: absolute;
+    width: 40em;
+    height: 20em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.multiplication {
+    position: relative;
+    width: 50%;
+    height: 20%;
+    margin: 1em auto;
+    text-align: center;
+    
+}
+
+.result{
+    position: relative;
+    width: 50%;
+    height: 20%;
+    margin: 1em auto;
+}
+
+.resultat{
+    margin: auto;
+    display: block;
+}
+
+input{
+    background-color: aliceblue;
+    border-radius: 6px;
+    border: 2px solid rgb(161, 161, 161);
+    width: 50%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.btn-submit{
+    display: block;
+    width: 50%;
+    margin: 0.5em auto;
+    background-color: rgb(1, 179, 25);
+    color: aliceblue;
+    border-radius: 10px;
+}
