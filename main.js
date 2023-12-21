@@ -20,10 +20,8 @@ function check_multiplication(){
         input_res.value = ''
         factor_one = create_multiplication()[0]
         factor_two = create_multiplication()[1]
-        string = factor_one.toString() + 'x' + factor_two.toString()
+        string = factor_one.toString() + ' x ' + factor_two.toString()
         afficher_multiplication(string)
-    }else{
-        console.log("Dommage")
     }
 }
 
