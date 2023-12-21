@@ -13,7 +13,7 @@ p{
 
 .container{
     position: absolute;
-    width: 40em;
+    width: 90%;
     height: 22em;
     top: 50%;
     left: 50%;
@@ -58,3 +58,5 @@ input{
     color: aliceblue;
     border-radius: 10px;
 }
+
+@media
